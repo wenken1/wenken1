@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>王立鹏</title>
+<script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/leftmenu.js"></script>
+    <link href="css/leftmeun.css" rel="stylesheet" type="text/css"/>
+	<style type="text/css">*{font-family:"开心软件二黑简体","开心软件黑体简体"}</style>
+
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/green.css" rel="stylesheet">
+
+<style>
+ ul,li{list-style:none;display:block;}
+            #scrollBox{background: #FFF;margin:40px auto;overflow:hidden;border: 1px dashed #CCC;width: 1000px;}
+            #scrollBox #con1,#scrollBox #con2{float:left;margin-left:10px;}        
+            #innerdiv {float: left;width: 800%;}    
+</style>
+</head>
+<body class="home">
+	<div><button class="btn">点击展开导航</button></div>
+    <div id="menu">
+        <div class="f1">
+            <ul>
+                <li class="hasChild">
+                    <a href="#">项目介绍及概况</a>
+                    <div class="f2">
+                        <ul>
+                            <li><a href="#">项目介绍</a></li>  
+                            <li><a href="#">项目概况</a></li>  
+                           
+                        
+                        </ul>
+                    </div>
+                </li>
+                <li class="hasChild">
+                    <a href="#">市场背景</a>
+                  
+                </li>
+                <li class="hasChild">
+
+                    <a href="#">销售及运营计划</a>
+                    <div class="f2">
+                        <ul>
+                            <li><a href="#">销售</a></li>
+                            <li><a href="#">运营</a></li>
+                     
+                           </li>
+                        </ul>
+                                      <li class="hasChild">
+                    <a href="#">核心竞争力</a>
+                  
+                </li>
+                <li class="hasChild">
+                    <a href="#">投资估计及明细</a>
+                  
+                </li>
+                <li class="hasChild">
+                    <a href="#">销售收入及利润预测</a>
+                  
+                </li>
+                    
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function ($) {
+        $('#menu').leftMenu({
+            "triggerBtn":".btn"
+        }).init()
+    })
+</script>
+
+<header class="row transparent black header1" data-spy="affix" data-offset-top="0" id="header">
+    <div class="container">
+        <div class="row top-header">
+            <div class="col-sm-4 search-form-col">
+                <form action="#" method="get" class="search-form">
+                    <div class="input-group">
+                        <span class="input-group-addon"><img src="#" alt=""></span>
+                        <input type="search" class="form-control" placeholder="search">
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-4 logo-col text-center">
+                <a href="../web/index.html"><img src="img/1-1G1131453340-L.jpg" alt=""></a>
+            </div>
+            <div class="col-sm-4 menu-trigger-col">
+                <button class="menu-trigger pull-right">
+                    <span class="active-page">home</span>
+                   
+                </button>
+            </div>
+        </div>        
+    </div>
+    <div class="row menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 menu-col">
+                    <div class="row">
+                        <ul class="nav column-menu black-bg">
+                            <li class="active dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html">Home Option 1</a></li>
+                                    <li><a href="index2.html">Home Option 2</a></li>
+                                    <li><a href="index3.html">Home Option 3</a></li>
+                                    <li><a href="index4.html">Home Option 4</a></li>
+                                    <li><a href="index5.html">Home Option 5</a></li>
+                                    <li><a href="index6.html">Home Option 6</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog Single 1</a></li>
+                            <li><a href="#">Blog Single 2</a></li>
+                        </ul>
+                        <ul class="nav column-menu black-bg">
+                            <li><a href="single3.html">Blog Single 3</a></li>
+                            
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 subscribe-col">
+                    <h5 class="widget-title">subscribe to our newsletter.</h5>
+                    <form action="#" method="post" class="form-inline subscribe-form">                    
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-sm"><span>send</span></button>
+                    </form>
+                    <ul class="nav social-nav dark">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="row featured-post-carousel">
+    <div class="item post">
+        <img src="images/featured-posts/1.jpg" alt="" class="img-responsive main-bg">
+        <div class="post-content">
+            <div class="container">
+                <h5 class="post-meta"><i>in</i> <a href="#">Author Profile</a> | 
+                <h2 class="post-title"><a href="single.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h2>
+                <a href="single.html" class="btn btn-primary"><span>read more</span></a>            </div>
+        </div>
+    </div>
+    <div class="item post">
+        <img src="images/featured-posts/1-1.jpg" alt="" class="img-responsive main-bg">        
+        <div class="post-content">
+            <div class="container">
+                <h5 class="post-meta"><i>in</i> <a href="#">Author Profile</a> | 
+                <h2 class="post-title"><a href="single.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h2>
+                <a href="single.html" class="btn btn-primary"><span>read more</span></a>            </div>
+        </div>
+    </div>
+    <div class="item post">
+        <img src="images/featured-posts/1-2.jpg" alt="" class="img-responsive main-bg">        
+        <div class="post-content">
+            <div class="container">
+                <h5 class="post-meta"><i>in</i> <a href="#">Author Profile</a> | 
+                <h2 class="post-title"><a href="single.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h2>
+                <a href="single.html" class="btn btn-primary"><span>read more</span></a>            </div>
+        </div>
+    </div>
+</section>
+
+<section class="row content-wrap">
+    <div class="container">
+        <div class="row" id="post-masonry">
+            <!--Blog Post-->
+            <article class="col-sm-4 post post-masonry post-format-image">
+                <div class="post-wrapper row">
+                    
+                    <div class="post-excerpt row">
+                      
+                        <h3 class="post-title"><a href="single.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h3>
+                        <p>In the broadest sense, is the natural, physical, or material world or universe...</p>
+                        <footer class="row">
+                            
+                            <div class="response-count"><img src="img/gongsi.png" alt=""></div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <!--Blog Post-->
+            <article class="col-sm-4 post post-masonry post-format-image">
+                <div class="post-wrapper row">
+                    <div class="featured-content row">
+                        <a href="single.html"><img src="images/posts/masonry/2.jpg" alt="" class="img-responsive"></a>                    </div>
+                    <div class="post-excerpt row">
+                        <h5 class="post-meta">
+  
+                            
+                        </h5>
+                        <h3 class="post-title"><a href="single.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h3>
+                        <p>In the broadest sense, is the natural, physical, or material world or universe...</p>
+                        <footer class="row">
+                            
+                            <div class="response-count"><img src="img/gongsi.png" alt=""></div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <!--Author Widget-->
+            <aside class="col-sm-4 widget-author widget widget-with-posts post">
+                <div class="widget-author-inner row">
+                    <div class="author-avatar row"><a href="#"><img src="images/author.png" alt="" class="img-circle"></a></div>
+                    <a href="#"><h2 class="author-name">我的创业计划</h2></a>
+                    <h5 class="author-title">small title</h5>
+                    <p>械友是一家致力于挖掘机出售，挖掘机上门维修，售后服务于一体的专业公司。提供点对点的服务，打造专业的技术品牌，值得您的信赖，客户的要求是我们砥砺奋进的动力</p>
+                    <a href="#" class="know-more">点击了解更多</a>
+                </div>
+                
+            </aside>
+            <!--Blog Post-->
+            <article class="col-sm-4 post post-masonry post-format-gallery">
+                <div class="post-wrapper row">
+                    <div id="scrollBox">
+                    <div id="innerdiv">
+                        <div id="con1" >
+                            <a ><img src="img/1-16050Q40A53K.jpg" alt=""></a>
+                            <a><img src="img/1-16050Q40G5U2.jpg" alt=""></a>
+                            <a><img src="img/1-16050Q40I1359.jpg" alt=""></a>
+                            <a><img src="img/1-16050Q40JEX.jpg" alt=""></a>
+                            <a><img src="img/1-16050Q40G5U2.jpg" alt=""></a>
+                            <a><img src="img/1-16050Q40I1359.jpg" alt=""></a>
+                            </div>
+                        <div id="con2"></div>
+                        </div> </div>
+                         <script type="text/javascript">            
+                var area =document.getElementById('scrollBox');
+                var con1 = document.getElementById('con1');
+                var con2 = document.getElementById('con2');
+                con2.innerHTML=con1.innerHTML;
+                 area.scrollLeft=0;                 
+               function scrollUp(){
+                if(area.scrollLeft>=con2.offsetWidth){
+                    area.scrollLeft=0;
+                }else{
+                    area.scrollLeft+=5;
+                }
+                }                
+                var time = 50;
+                var mytimer=setInterval(scrollUp,time);
+                area.onmouseover=function(){
+                    clearInterval(mytimer);
+                }
+                area.onmouseout=function(){
+                    mytimer=setInterval(scrollUp,time);
+                }
+                
+        </script>
+                    </div>
+                    <div class="post-excerpt row">
+                        <h5 class="post-meta">
+                            
+                          
+                        </h5>
+                        <h3 class="post-title"><a href="introduce.html">项目介绍及概况</a></h3>
+                        <p>Introduce</p>
+                        <footer class="row">
+                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
+                           
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <!--Blog Post-->
+            <article class="col-sm-4 post post-masonry post-format-text">
+                <div class="post-wrapper row">
+                    <div class="post-excerpt row">
+                        <h5 class="post-meta">
+                            
+                            <span class="post-author"><i>by</i><a href="#">王立鹏</a></span>
+                        </h5>
+                        <h3 class="post-title"><a href="background.html">市场背景</a></h3>
+                        <p>Background</p>
+                        <footer class="row">
+                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
+                            <div class="response-count"><img src="images/comment-icon-gray.png" alt=""></div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <!--Blog Post-->
+            <article class="col-sm-4 post post-masonry post-format-video">
+                <div class="post-wrapper row">
+                    <div class="featured-content row">
+                        <a href="single.html">
+                            <img src="images/posts/masonry/4.jpg" alt="" class="img-responsive">
+                            <img src="images/play-btn.png" alt="" class="video-mark">                        </a>                    </div>
+                    <div class="post-excerpt row">
+                        <h5 class="post-meta">
+                          
+                            <span class="post-author"><i>by</i><a href="#">王立鹏</a></span>
+                        </h5>
+                        <h3 class="post-title"><a href="plan.html">销售及运营计划</a></h3>
+                        <p>Plans</p>
+                        <footer class="row">
+                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
+                            <div class="response-count"><img src="images/comment-icon-gray.png" alt=""></div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <!--Twitter Widget-->
+            <aside class="col-sm-4 widget widget-twitter widget-with-posts post">
+                <div class="widget-twitter-inner">
+                    
+                    <div class="row tweet-texts">
+                        <p><a href="core.html">核心竞争力</a></p>
+                    </div>
+                   
+                </div>
+            </aside>
+            <!--Blog Post-->
+            <article class="col-sm-4 post post-masonry post-format-quote">
+                <div class="post-wrapper row">
+                    <div class="post-excerpt row">
+                        <h5 class="post-meta">
+                            
+                            <span class="post-author"><i>by</i><a href="#">王立鹏</a></span>
+                        </h5>
+                        <h3 class="post-title" ><a href="money.html">投资估计及明细</a></h3>
+                        <h5 class="quote-maker"><a href="#">osho</a></h5>
+                        <footer class="row">
+                            <h5 class="taxonomy"><i>in</i> <a href="#">quote</a>, <a href="#">life</a></h5>
+                            <div class="response-count"><img src="images/comment-icon-white.png" alt=""></div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <!--Blog Post-->
+            
+            <!--Blog Post-->
+            <article class="col-sm-4 post post-masonry post-format-video">
+                <div class="post-wrapper row">
+                    <div class="featured-content row">
+                        <a href="single.html">
+                            <img src="images/posts/masonry/4.jpg" alt="" class="img-responsive">
+                            <img src="images/play-btn.png" alt="" class="video-mark">                        </a>                    </div>
+                    <div class="post-excerpt row">
+                        <h5 class="post-meta">
+                            
+                            <span class="post-author"><i>by</i><a href="#">王立鹏</a></span>
+                        </h5>
+                        <h3 class="post-title"><a href="predict.html">销售收入及利润预测</a></h3>
+                        <p>Predict</p>
+                        <footer class="row">
+                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
+                            <div class="response-count"><img src="images/comment-icon-gray.png" alt=""></div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            <!--Twitter Widget-->
+            <aside class="col-sm-4 widget widget-instagram widget-with-posts post">
+                <div class="widget-instagram-inner">
+                    <h1 class="widget-meta"><i class="fa fa-twitter"><img src="img/about.jpg"></i></h1>
+                    <div id="instafeed"></div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<footer class="row" id="footer">
+    <div class="container">
+        <div class="row top-footer">
+            <div class="widget col-sm-3 widget-about">
+                <div class="row m0"><a href="index.html"><img src="images/logo-black-green.png" alt=""></a></div>
+            </div>
+            <div class="widget col-sm-5 widget-menu">
+                <div class="row">
+                    <ul class="nav column-menu white-bg">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        
+                    </ul>
+                    <ul class="nav column-menu white-bg">
+                        
+                        
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget col-sm-4 widget-subscribe">
+                <h5 class="widget-title">械友欢迎你的加盟</h5>
+                <form action="#" method="post" class="form-inline subscribe-form">                    
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-sm"><span>send</span></button>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+</footer>
+
+
+
+</body>
+</html>
+
